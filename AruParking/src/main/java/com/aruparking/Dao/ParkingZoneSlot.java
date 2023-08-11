@@ -29,6 +29,7 @@ public class ParkingZoneSlot implements Serializable{
 	
 private static final long serialVersionUID = 1L;
 	
+
 	@Id
 	@SequenceGenerator(name = "PARKING_ZONES_SLOT_ID_GENERATOR", sequenceName="PARKING_ZONES_SLOT_SEQ",initialValue = 1, allocationSize = 1 )
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="PARKING_ZONES_SLOT_ID_GENERATOR")
